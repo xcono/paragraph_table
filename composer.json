@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "name": "xcono/paragraph_table",
+  "type": "drupal-module",
+  "description": "Provides Table Paragraph type",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://github.com/xcono/paragraph_table",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "support": {
+    "issues": "https://github.com/xcono/paragraph_table/issues",
+    "source": "https://github.com/xcono/paragraph_table"
+  },
+  "require": {
+    "drupal/paragraphs": "~1.0",
+    "drupal/tablefield": "~1.0"
+  }
+}

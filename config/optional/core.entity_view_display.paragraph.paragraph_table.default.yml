@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paragraph_table.field_paragraph_label
+    - field.field.paragraph.paragraph_table.field_paragraph_table
+    - paragraphs.paragraphs_type.paragraph_table
+  module:
+    - tablefield
+id: paragraph.paragraph_table.default
+targetEntityType: paragraph
+bundle: paragraph_table
+mode: default
+content:
+  field_paragraph_label:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_paragraph_table:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: tablefield
+hidden:
+  created: true
+  uid: true
