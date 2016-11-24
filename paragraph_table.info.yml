@@ -1,8 +1,8 @@
-name: Table Paragraph
+name: Paragraph Table
 type: module
 description: Provides table paragraph type
 core: 8.x
-package: Xcono
+package: Paragraphs
 dependencies:
   - paragraphs
   - tablefield
